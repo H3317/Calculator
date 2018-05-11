@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/expr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/textSize"
+            android:text=""
+            android:gravity="top"
+            android:inputType=""
+            android:background="@null"
+            tools:ignore="LabelFor"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:gravity="right|center_vertical"
+            android:text=""
+            android:textSize="@dimen/textSize"
+            tools:ignore="RtlHardcoded" />
+        <com.hl.calculator.MyKeyboardView
+            android:id="@+id/customKeyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="#e6e6e6"
+            android:keyBackground="@drawable/bg_keyboard_btn"
+            android:keyTextColor="#000000"
+            android:keyTextSize="31dp"
+            android:labelTextSize="23.04sp"
+            android:shadowRadius="0" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

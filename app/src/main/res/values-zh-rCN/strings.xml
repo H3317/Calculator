@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="action_settings">设置</string>
+    <string name="clear">清除</string>
+    <string name="save">保存</string>
+    <string name="pressagainexit">再次按下退出</string>
+    <string name="errorexpression">表达式错误，请检查</string>
+</resources>

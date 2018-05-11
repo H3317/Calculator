@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="pressagainexit">Press again exit</string>
+    <string name="errorexpression">Error expression, please check</string>
+</resources>
